@@ -1,0 +1,62 @@
+{
+  "data_source": "Yahoo Finance via yfinance",
+  "start_date": "2018-01-02",
+  "end_date": "2026-10-15",
+  "assets": [
+    "SPY",
+    "QQQ",
+    "IWM",
+    "TLT",
+    "GLD"
+  ],
+  "weights": {
+    "SPY": 0.35,
+    "QQQ": 0.2,
+    "IWM": 0.15,
+    "TLT": 0.2,
+    "GLD": 0.1
+  },
+  "portfolio_performance": {
+    "observations": 2208,
+    "annualized_return": 0.11945872906671462,
+    "annualized_volatility": 0.1475327386393929,
+    "sharpe_ratio": 0.8388975589318635,
+    "max_drawdown": -0.26347463811523075,
+    "best_period_return": 0.07838948986894025,
+    "worst_period_return": -0.07115018544446809,
+    "hit_rate": 0.551177536231884
+  },
+  "tail_risk": {
+    "confidence": 0.99,
+    "historical_var_1d": 0.02501809309142615,
+    "historical_cvar_1d": 0.036513821863913894,
+    "normal_var_1d": 0.021129223199805185,
+    "normal_cvar_1d": 0.02427854162428074
+  },
+  "block_bootstrap_10d_tail_risk": {
+    "confidence": 0.99,
+    "horizon_days": 10,
+    "simulations": 25000,
+    "block_size_days": 5,
+    "random_seed": 42,
+    "block_bootstrap_var": 0.08022828054240559,
+    "block_bootstrap_cvar": 0.10195965968744997,
+    "simulated_mean_loss": -0.004619140895974152,
+    "simulated_loss_std": 0.02823246218216511
+  },
+  "ewma_volatility_latest": 0.006230655336771892,
+  "var_backtest": {
+    "exceptions": 29,
+    "observations": 1956,
+    "exception_rate": 0.014826175869120654,
+    "expected_exception_rate": 0.010000000000000009,
+    "kupiec_lr": 4.00702584817617,
+    "kupiec_pvalue": 0.04531101349891151,
+    "n00": 1900,
+    "n01": 26,
+    "n10": 26,
+    "n11": 3,
+    "independence_lr": 6.993658628567459,
+    "independence_pvalue": 0.008179898412754825
+  }
+}

@@ -1,0 +1,5 @@
+scenario,shock_SPY,shock_QQQ,shock_IWM,shock_TLT,shock_GLD,contribution_SPY,contribution_QQQ,contribution_IWM,contribution_TLT,contribution_GLD,portfolio_return_shock
+equity_selloff,-0.15,-0.2,-0.22,0.04,0.03,-0.0525,-0.04000000000000001,-0.033,0.008,0.003,-0.11449999999999999
+rates_selloff,-0.06,-0.08,-0.07,-0.15,-0.02,-0.020999999999999998,-0.016,-0.0105,-0.03,-0.002,-0.0795
+flight_to_quality,-0.08,-0.1,-0.12,0.1,0.06,-0.027999999999999997,-0.020000000000000004,-0.018,0.020000000000000004,0.006,-0.04
+inflation_shock,-0.1,-0.13,-0.12,-0.12,0.08,-0.034999999999999996,-0.026000000000000002,-0.018,-0.024,0.008,-0.095
